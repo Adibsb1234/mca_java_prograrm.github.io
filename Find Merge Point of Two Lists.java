@@ -52,17 +52,7 @@ public class Solution {
         }
     }
 
-    // Complete the findMergeNode function below.
-
-    /*
-     * For your reference:
-     *
-     * SinglyLinkedListNode {
-     *     int data;
-     *     SinglyLinkedListNode next;
-     * }
-     *
-     */
+   
     static int findMergeNode(SinglyLinkedListNode head1, SinglyLinkedListNode head2) {
 
 SinglyLinkedListNode temp1=head1;
