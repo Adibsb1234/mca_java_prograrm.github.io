@@ -49,19 +49,14 @@ public class EvilNumberExample {
     //main() method start  
     public static void main(String[] args) {  
       
-        // declare variable in which the user entered value will be store  
         int num = 0;  
   
-        // create scanner class object   
         Scanner sc =  new Scanner(System.in);  
           
-        //display custom message  
         System.out.print("Enter a number : ");  
           
-        //get input from user  
         num = sc.nextInt();  
   
-        // check whether the number is evil number or not  
         if(checkNumber(num))  
             System.out.println(num + " is an evil number");  
         else  
