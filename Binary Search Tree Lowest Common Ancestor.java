@@ -41,7 +41,6 @@ class Solution {
         return lca(root.left,v1,v2);
     }
 
-    //Else solution already found
     return root;
 }
 
