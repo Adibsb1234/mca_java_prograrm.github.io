@@ -8,7 +8,6 @@ abstract class Node implements Comparable<Node> {
       frequency = freq; 
     }
  
-    // compares on the frequency
     public int compareTo(Node tree) {
         return frequency - tree.frequency;
     }
@@ -65,7 +64,6 @@ class Decoding {
  
 public class Solution {
   
-    // input is an array of frequencies, indexed by character code
     public static Node buildTree(int[] charFreqs) {
       
         PriorityQueue<Node> trees = new PriorityQueue<Node>();
