@@ -1,7 +1,7 @@
 import java.util.*;
  
 abstract class Node implements Comparable<Node> {
-    public  int frequency; // the frequency of this tree
+    public  int frequency; 
     public  char data;
     public  Node left, right; 
     public Node(int freq) { 
