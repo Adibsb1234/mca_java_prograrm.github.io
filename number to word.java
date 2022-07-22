@@ -8,18 +8,12 @@ if (len == 0)
 System.out.println("The string is empty.");  
 return;  
 }  
-//here, we have specified the length of the number to 4  
-//it means that the number (that you want to convert) should be four or less than four digits  
 if (len > 4)   
 {  
-//if the given number is more than four-digit number, it prints the following statement    
 System.out.println("\n The given number has more than 4 digits.");  
 return;  
 }  
-//string type array for one-digit numbers    
 String[] onedigit = new String[] {"Zero", "One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine"};  
-//string type array for two digits numbers    
-//the first index is empty because it makes indexing easy   
 String[] twodigits = new String[] {"", "Ten", "Eleven", "Twelve", "Thirteen", "Fourteen", "Fifteen", "Sixteen", "Seventeen", "Eighteen", "Nineteen"};  
 //string type array of tens multiples   
 //the first two indexes are empty because it makes indexing easy   
