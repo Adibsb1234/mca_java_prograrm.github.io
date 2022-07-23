@@ -9,9 +9,7 @@ public class Solution {
    Scanner in = new Scanner(System.in);
    int n = in .nextInt();
    in.close();
-   //String s=???; Complete this line below
 
-   //Write your code here
    String s = Integer.toString(n);
 
    
