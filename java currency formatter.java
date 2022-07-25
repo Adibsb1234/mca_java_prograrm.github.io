@@ -8,9 +8,6 @@ public class Solution {
         double payment = scanner.nextDouble();
         scanner.close();
         
-        // Write your code here.
-        /* Create custom Locale for India. 
-          I used the "IANA Language Subtag Registry" to find India's country code */
         Locale indiaLocale = new Locale("en", "IN");
 
         /* Create NumberFormats using Locales */
