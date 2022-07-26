@@ -9,11 +9,8 @@ return ((sqrt - Math.floor(sqrt)) == 0);
 public static void main(String[] args)    
 {   
 System.out.print("Enter any number: ");  
-//object of the Scanner class  
 Scanner sc=new Scanner(System.in);  
-//reading a number of type double from the user  
 double number=sc.nextDouble();   
-//calling the user defined method  
 if (checkPerfectSquare(number))   
 System.out.print("Yes, the given number is perfect square.");   
 else  
