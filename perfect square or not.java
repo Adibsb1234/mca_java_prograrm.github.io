@@ -4,10 +4,8 @@ public class CheckPerfectSquareExample1
 static boolean checkPerfectSquare(double number)    
 {   
 double sqrt=Math.sqrt(number);   
-//finds the floor value of the square root and comparing it with zero  
 return ((sqrt - Math.floor(sqrt)) == 0);   
 }   
-//main method  
 public static void main(String[] args)    
 {   
 System.out.print("Enter any number: ");  
