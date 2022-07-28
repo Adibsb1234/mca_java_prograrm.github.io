@@ -13,8 +13,8 @@ System.out.println("The reversed string is: " + reversed);
 }  
 public static String reverseString(String s)  
 {  
-if (s.isEmpty())                            //checks the string if empty  
+if (s.isEmpty())                         
 return s;  
-return reverseString(s.substring(1)) + s.charAt(0);                     //recursively called function  
+return reverseString(s.substring(1)) + s.charAt(0);                
 }  
 }  
