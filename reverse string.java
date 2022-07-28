@@ -7,7 +7,7 @@ String str;
 System.out.println("Enter a string: ");  
 Scanner scanner = new Scanner(System.in);  
 str = scanner.nextLine();  
-scanner.close();                                //closes the input stream  
+scanner.close();                                 
 String reversed = reverseString(str);  
 System.out.println("The reversed string is: " + reversed);  
 }  
