@@ -1,5 +1,4 @@
 public class PermuteString {    
-    //Function for swapping the characters at position I with character at position j    
     public static String swapString(String a, int i, int j) {    
         char[] b =a.toCharArray();    
         char ch;    
@@ -17,7 +16,6 @@ public class PermuteString {
         generatePermutation(str, 0, len);    
     }    
         
-    //Function for generating different permutations of the string    
     public static void generatePermutation(String str, int start, int end)    
     {    
         //Prints the permutations    
