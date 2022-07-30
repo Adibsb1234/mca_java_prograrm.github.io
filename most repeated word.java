@@ -9,11 +9,9 @@ public class MostRepeatedWord {
         int count = 0, maxCount = 0;    
         ArrayList<String> words = new ArrayList<String>();    
             
-        //Opens file in read mode    
         FileReader file = new FileReader("data.txt ");    
         BufferedReader br = new BufferedReader(file);    
             
-        //Reads each line    
         while((line = br.readLine()) != null) {    
             String string[] = line.toLowerCase().split("([,.\\s]+) ");    
             //Adding all words generated in previous step into words    
