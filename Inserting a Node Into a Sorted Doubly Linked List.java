@@ -55,7 +55,6 @@ public class Solution {
         }
     }
 
-    // Complete the sortedInsert function below.
 
     /*
      * For your reference:
