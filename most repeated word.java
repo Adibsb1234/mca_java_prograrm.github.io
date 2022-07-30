@@ -14,16 +14,13 @@ public class MostRepeatedWord {
             
         while((line = br.readLine()) != null) {    
             String string[] = line.toLowerCase().split("([,.\\s]+) ");    
-            //Adding all words generated in previous step into words    
             for(String s : string){    
                 words.add(s);    
             }    
         }    
             
-        //Determine the most repeated word in a file    
         for(int i = 0; i < words.size(); i++){    
             count = 1;    
-            //Count each word in the file and store it in variable count    
             for(int j = i+1; j < words.size(); j++){    
                 if(words.get(i).equals(words.get(j))){    
                     count++;    
