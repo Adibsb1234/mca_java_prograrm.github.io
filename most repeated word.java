@@ -26,8 +26,7 @@ public class MostRepeatedWord {
                     count++;    
                 }     
             }    
-            //If maxCount is less than count then store value of count in maxCount     
-            //and corresponding word to variable word    
+    
             if(count > maxCount){    
                 maxCount = count;    
                 word = words.get(i);    
